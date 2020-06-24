@@ -1,0 +1,25 @@
+/*
+ * Classname: Main
+ * @version 24.06.2020
+ * @author Ivanna Moskaliuk KNUTE
+ *          Module 4 task 1
+ *  Home task. Files management.
+ *  1. Parse the file logs.txt (see the attachment).
+ *  Extract to a separate file all the logs from October 2019.
+ *  2. Calculate the total number of logs (lines).
+ *  3. Calculate the total  number of  ERROR logs.
+ *  Use previous skills - String.split
+ *  4. Calculate the total number of ERROR logs. Use Files.lines.
+ *  5. Compare two results.
+ */
+ 
+ ---------------------------- OUTPUT -------------------------------
+File logs.txt contains of 2845607 lines
+------------------------------------
+File logs.txt contains of 361 ERROR logs
+Using String.split for finding ERRORS needs 9368 milliseconds
+------------------------------------
+File logs.txt contains of 361 ERROR logs
+Using Files.lines for finding ERRORS needs 5653 milliseconds
+------------------------------------
+File 'October2019logs.txt' with all logs from October 2019 on Desktop
